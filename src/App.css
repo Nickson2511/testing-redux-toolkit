@@ -1,0 +1,19 @@
+.App {
+  display: flex;                /* Enables Flexbox */
+  flex-direction: column;       /* Aligns children in a column */
+  justify-content: center;      /* Centers children vertically */
+  align-items: center;          /* Centers children horizontally */
+  height: 100vh;                /* Makes the App container take the full height of the viewport */
+  text-align: center;           /* Ensures text remains centered */
+  padding: 20px;
+}
+
+.button-row {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
